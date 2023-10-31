@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Git-Finder</title>
+  </head>
+  <body>
+    <header>
+      <p>GitHub Finder</p>
+    </header>
+    <main>
+      <div class="main-box" id="box1">
+        <h1>Search GirHub Users</h1>
+        <div>Enter a username to fetch a suer profile and repos</div>
+        <input type="text" id="usernameInput" />
+      </div>
+      <div class="main-box" id="box2-wrapper">
+        <div id="box2">
+          <div id="userImgContainer"></div>
+          <div class="content-wrapper">
+            <div id="userInfoContainer1"></div>
+            <table id="userInfoTable"></table>
+          </div>
+        </div>
+      </div>
+      <div class="main-box" id="box3">
+        <h1>Latest Repos</h1>
+        <div id="repos-wrapper"></div>
+      </div>
+    </main>
+    <footer>
+      <p>GitHub Finder</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

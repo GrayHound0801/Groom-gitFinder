@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(52, 119, 245);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+header p {
+  font-size: 20px;
+  padding-left: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#box1 {
+  max-width: 100%;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 4px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+#box1 h1 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(57, 57, 57);
+  margin: 10px 0;
+}
+
+#box1 div {
+  color: rgb(157, 157, 157);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#box1 input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(210, 210, 210);
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 10px;
+}
+
+#box2-wrapper {
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 4px;
+  padding: 20px;
+}
+#box2 {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#userImgContainer {
+  margin-right: 40px;
+  max-width: 100%;
+}
+
+.user-img {
+  width: 220px;
+  border-radius: 4px;
+}
+
+#content-wrapper {
+  display: flex;
+  flex-direction: columns;
+}
+
+#userInfoContainer1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.infoBox {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 6px;
+  color: white;
+}
+
+.public-repos {
+  background-color: rgb(52, 119, 245);
+}
+
+.public-gists {
+  background-color: rgb(156, 156, 156);
+}
+
+.followers {
+  background-color: rgb(11, 198, 117);
+}
+
+.following {
+  background-color: rgb(6, 203, 203);
+}
+
+#userInfoTable {
+  height: 170px;
+  border: 1px solid rgb(210, 210, 210);
+}
+
+#userInfoTable,
+#userInfoTable tr,
+#userInfoTable td {
+  width: 100%;
+  padding: 0 0 0 20px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.tableTd {
+  border-bottom: 1px solid rgb(156, 156, 156);
+}
+
+.view {
+  width: 220px;
+  background-color: rgb(52, 119, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.repos-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.repos-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 20px 30px;
+  border-radius: 4px;
+}
+
+.repo {
+  color: rgb(52, 119, 245);
+  width: 500px;
+}
+
+.repo-info-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 200px;
+}
